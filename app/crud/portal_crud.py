@@ -4,6 +4,7 @@ from utils.portal_helper import portal_helper, portal_detail_helper
 from urllib.parse import quote
 import httpx
 
+# pre-process url to handle special characters
 async def pre_process_url(url: str) -> str:
     try:
         result = quote(url, safe=':/?=&')
@@ -12,7 +13,8 @@ async def pre_process_url(url: str) -> str:
 
     except Exception as e:
         raise Exception(f"An error occurred while pre-processing url: {str(e)}")
-    
+
+# add query to url if query exists
 async def addQueryToURL(portal: dict) -> str:
     try:
         if len(portal['query']) == 0:
@@ -31,6 +33,7 @@ async def addQueryToURL(portal: dict) -> str:
     except Exception as e:
         raise Exception(f"An error occurred while adding query to url: {str(e)}")
 
+# Create portal in database
 async def create_portal(portal_data: dict) -> dict:
     try:
         if await portal_collection.find_one({"slug": portal_data.slug}):
@@ -42,7 +45,8 @@ async def create_portal(portal_data: dict) -> dict:
         return portal_helper(new_portal)
     except Exception as e:
         raise Exception(f"An error occurred while creating portal: {str(e)}")
-    
+
+# Update portal in database
 async def update_portal(slug: str, portal_data: dict) -> dict:
     try:
         portal = await portal_collection.find_one({'slug': slug})
@@ -54,7 +58,11 @@ async def update_portal(slug: str, portal_data: dict) -> dict:
             {"$set": portal_data}
         )
 
-        return "Portal updated successfully."
+        if updated_portal.matched_count > 0:
+            updated_portal = await portal_collection.find_one({'slug': slug})
+            return portal_helper(updated_portal)
+        else:
+            raise HTTPException(status_code=400, detail="Portal update failed.")
         
     except Exception as e:
         raise Exception(f"An error occurred while updating portal: {str(e)}")

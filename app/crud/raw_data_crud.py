@@ -11,19 +11,20 @@ async def store_raw_data_to_db_func(slug: str, web: str, retrieve_data: any):
                 "data": retrieve_data
             }
 
-            raw_data = await raw_data_collection.insert_one(data_to_store)
-
-            new_raw_data = await raw_data_collection.find_one({"_id": raw_data.inserted_id})
-
-            return raw_data_helper(new_raw_data)
-
         else:
-            return "Data not stored to db."
+            pass
+
+        raw_data = await raw_data_collection.find_one_and_update(
+            {"slug": slug},
+            {"$set": data_to_store},
+            upsert=True
+        )
+
+        return raw_data_helper(raw_data)
             
     except Exception as e:
         raise Exception(f"An error occurred while storing data to db: {str(e)}")
     
-        
 async def store_raw_data_to_db(slug: str):
     try:
         portal = await portal_collection.find_one({'slug': slug})

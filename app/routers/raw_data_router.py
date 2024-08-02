@@ -1,6 +1,7 @@
-from fastapi import APIRouter, HTTPException, status
+from fastapi import APIRouter, status
 from crud.raw_data_crud import store_raw_data_to_db
-from utils.response_helper import response_helper
+from utils.response_helper import success_response, error_response
+from common.message.message_enum import ResponseMessage
 
 router = APIRouter()
 
@@ -8,6 +9,8 @@ router = APIRouter()
 async def store_raw_data(slug: str):
     try:
         data = await store_raw_data_to_db(slug)
-        return data
+        return success_response(data, message=ResponseMessage.OK_CREATEORUPDATE.value, status_code=200)
     except Exception as e:
-        raise HTTPException(status_code=400, detail=str(e))
+        return error_response(message=str(e), status_code=400)
+    
+
