@@ -11,3 +11,19 @@ if not MONGO_DETAILS:
 DATABASE_NAME = os.getenv("DATABASE_NAME")
 if not DATABASE_NAME:
     raise ValueError("DATABASE_NAME must be defined.")
+
+BACDIVE_EMAIL = os.getenv("BACDIVE_EMAIL")
+if not BACDIVE_EMAIL:
+    raise ValueError("BACDIVE_EMAIL must be defined.")
+
+BACDIVE_PASSWORD = os.getenv("BACDIVE_PASSWORD")
+if not BACDIVE_PASSWORD:
+    raise ValueError("BACDIVE_PASSWORD must be defined.")
+
+HOST = os.getenv("HOST")
+if not HOST:
+    raise ValueError("HOST must be defined.")
+
+PORT = os.getenv("PORT")
+if not PORT:
+    raise ValueError("PORT must be defined.")

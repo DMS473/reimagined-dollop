@@ -3,6 +3,10 @@ from database.mongo import portal_collection
 from utils.portal_helper import portal_helper, portal_detail_helper
 from urllib.parse import quote
 import httpx
+import bacdive
+from config import BACDIVE_EMAIL, BACDIVE_PASSWORD
+
+bacdive_client = bacdive.BacdiveClient(BACDIVE_EMAIL, BACDIVE_PASSWORD)
 
 # pre-process url to handle special characters
 async def pre_process_url(url: str) -> str:
@@ -32,11 +36,36 @@ async def addQueryToURL(portal: dict) -> str:
     
     except Exception as e:
         raise Exception(f"An error occurred while adding query to url: {str(e)}")
+    
+# Check if portal exists
+async def portal_exists(slug: str) -> bool:
+    portal = await portal_collection.find_one({"slug": slug})
+    return portal
+
+# Get bacdive data
+async def get_bacdive_data(species_name: str):
+    try:
+        bacdive_count = bacdive_client.search(taxonomy=species_name)
+        # print(bacdive_count, 'strains found.')
+        
+        bacdive_dict: dict = {}
+        # filter=['BacDive-ID', 'species']
+
+        k = 0
+
+        for v in bacdive_client.retrieve():
+            bacdive_dict[k] = v 
+            k = k + 1
+        
+        return bacdive_dict
+    
+    except Exception as e:
+        raise Exception(f"An error occurred while getting bacdive data: {str(e)}")
 
 # Create portal in database
 async def create_portal(portal_data: dict) -> dict:
     try:
-        if await portal_collection.find_one({"slug": portal_data.slug}):
+        if await portal_exists(portal_data.slug):
             raise HTTPException(status_code=400, detail="Portal with this slug already exists.")
         
         portal = await portal_collection.insert_one(portal_data.__dict__)
@@ -49,8 +78,7 @@ async def create_portal(portal_data: dict) -> dict:
 # Update portal in database
 async def update_portal(slug: str, portal_data: dict) -> dict:
     try:
-        portal = await portal_collection.find_one({'slug': slug})
-        if not portal:
+        if not await portal_exists(slug):
             raise HTTPException(status_code=404, detail="Portal not found.")
         
         updated_portal = await portal_collection.update_one(
@@ -69,11 +97,7 @@ async def update_portal(slug: str, portal_data: dict) -> dict:
     
 async def delete_portal(slug: str) -> dict:
     try:
-        portal = await portal_collection.find_one(
-            {"slug": slug}
-        )
-
-        if not portal:
+        if not await portal_exists(slug):
             raise HTTPException(status_code=404, detail="Portal not found.")
         
         await portal_collection.delete_one(
@@ -85,7 +109,7 @@ async def delete_portal(slug: str) -> dict:
 
 async def get_portals() -> list:
     portals = []
-
+    
     try:
         async for portal in portal_collection.find({}):
             portals.append(portal_helper(portal))
@@ -111,14 +135,18 @@ async def retrieve_data(slug: str):
         if not portal:
             raise HTTPException(status_code=404, detail="Portal not found.")
 
-        url: str = await addQueryToURL(portal)
+        if portal['web'] != 'bacdive':
+            url: str = await addQueryToURL(portal)
 
-        async with httpx.AsyncClient() as client:
-            response = await client.get(url)
-            response.raise_for_status()
-            data = response.json()
-        return data
-
+            async with httpx.AsyncClient() as client:
+                response = await client.get(url)
+                response.raise_for_status()
+                data = response.json()
+            return data
+    
+        bacdive_data = await get_bacdive_data(portal['query']['name'])
+        return bacdive_data
+        
     except httpx.HTTPError as e:
         raise HTTPException(status_code=e.response.status_code, detail=str(e))
     

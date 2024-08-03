@@ -5,7 +5,7 @@ try:
     client = AsyncIOMotorClient(MONGO_DETAILS)
     database = client[DATABASE_NAME]
     portal_collection = database.get_collection("portals")
-    raw_data_collection = database.get_collection("raw_data")
+    raw_data_collection = database.get_collection("raw_datas")
     terms_collection = database.get_collection("terms")
     print("Connected to MongoDB")
 except Exception as e:

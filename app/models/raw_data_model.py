@@ -6,3 +6,6 @@ class RawDataBaseModel(BaseModel):
 
 class RawDataModel(RawDataBaseModel):
     id: str
+
+class ListOfSpecies(BaseModel):
+    species: list
