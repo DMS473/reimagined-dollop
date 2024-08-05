@@ -7,6 +7,7 @@ class PortalBaseModel(BaseModel):
     base_url: str = Field(..., min_length=1, max_length=500)
     query: dict = Field({},)
     web: str = Field(..., min_length=1, max_length=100)
+    species: str = Field(..., min_length=1, max_length=100)
 
 class PortalModel(PortalBaseModel):
     id: str
@@ -20,3 +21,4 @@ class PortalUpdateModel(BaseModel):
     base_url: Optional[str] = None
     query: Optional[dict] = None
     web: Optional[str] = None
+    species: Optional[str] = None

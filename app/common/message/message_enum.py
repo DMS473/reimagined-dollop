@@ -8,6 +8,10 @@ class ResponseMessage(Enum):
   OK_UPDATE = 'Successfully update data'
   OK_CREATEORUPDATE = 'Successfully create or update data'
   OK_DELETE = 'Successfully delete data'
+
+  NO_DATA = 'No data found'
+
+  # Error Related
   ERR = 'Failed to get data'
   ERR_LIST = 'Failed to get list of data'
   ERR_CREATE = 'Failed to create data'

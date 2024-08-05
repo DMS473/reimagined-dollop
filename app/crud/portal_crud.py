@@ -1,12 +1,11 @@
 from fastapi import HTTPException
 from database.mongo import portal_collection
-from utils.portal_helper import portal_helper, portal_detail_helper
 from urllib.parse import quote
 import httpx
 import bacdive
+import xmltodict
 from config import BACDIVE_EMAIL, BACDIVE_PASSWORD
-
-bacdive_client = bacdive.BacdiveClient(BACDIVE_EMAIL, BACDIVE_PASSWORD)
+from common.message.message_enum import ResponseMessage
 
 # pre-process url to handle special characters
 async def pre_process_url(url: str) -> str:
@@ -22,7 +21,7 @@ async def pre_process_url(url: str) -> str:
 async def addQueryToURL(portal: dict) -> str:
     try:
         if len(portal['query']) == 0:
-            return ""
+            return portal['base_url']
         
         query_str: str = ''
         
@@ -45,6 +44,7 @@ async def portal_exists(slug: str) -> bool:
 # Get bacdive data
 async def get_bacdive_data(species_name: str):
     try:
+        bacdive_client = bacdive.BacdiveClient(BACDIVE_EMAIL, BACDIVE_PASSWORD)
         bacdive_count = bacdive_client.search(taxonomy=species_name)
         # print(bacdive_count, 'strains found.')
         
@@ -69,9 +69,9 @@ async def create_portal(portal_data: dict) -> dict:
             raise HTTPException(status_code=400, detail="Portal with this slug already exists.")
         
         portal = await portal_collection.insert_one(portal_data.__dict__)
-        new_portal = await portal_collection.find_one({"_id": portal.inserted_id})
+        new_portal = await portal_collection.find_one({"_id": portal.inserted_id}, {'_id': 0})
 
-        return portal_helper(new_portal)
+        return new_portal
     except Exception as e:
         raise Exception(f"An error occurred while creating portal: {str(e)}")
 
@@ -87,8 +87,8 @@ async def update_portal(slug: str, portal_data: dict) -> dict:
         )
 
         if updated_portal.matched_count > 0:
-            updated_portal = await portal_collection.find_one({'slug': slug})
-            return portal_helper(updated_portal)
+            updated_portal = await portal_collection.find_one({'slug': slug}, {'_id': 0})
+            return updated_portal
         else:
             raise HTTPException(status_code=400, detail="Portal update failed.")
         
@@ -109,44 +109,88 @@ async def delete_portal(slug: str) -> dict:
 
 async def get_portals() -> list:
     portals = []
-    
+
     try:
-        async for portal in portal_collection.find({}):
-            portals.append(portal_helper(portal))
+        async for portal in portal_collection.find({}, {'_id': 0}):
+            portals.append(portal)
+        
         return portals
+
     except Exception as e:
         raise Exception(f"An error occurred while retrieving portals: {str(e)}")
     
 async def get_portal_by_slug(slug: str) -> dict:
     try:
-        portal = await portal_collection.find_one({'slug': slug})
+        portal = await portal_collection.find_one({'slug': slug}, {'_id': 0})
         if not portal:
             raise HTTPException(status_code=404, detail="Portal not found.")
         
-        portal['retrieve_data_url'] = await addQueryToURL(portal)
+        if portal['web'] == 'bacdive':
+            portal['retrieve_data_url'] = ResponseMessage.NO_DATA.value
+        else:
+            portal['retrieve_data_url'] = await addQueryToURL(portal)
 
-        return portal_detail_helper(portal)
+        return portal
     except Exception as e:
         raise Exception(f"An error occurred while retrieving portal by slug: {str(e)}")
- 
+
 async def retrieve_data(slug: str):
     try:
         portal = await portal_collection.find_one({'slug': slug})
         if not portal:
             raise HTTPException(status_code=404, detail="Portal not found.")
 
-        if portal['web'] != 'bacdive':
-            url: str = await addQueryToURL(portal)
+        if portal['web'] == 'bacdive':
+            bacdive_data = await get_bacdive_data(portal['query']['name'])
+            return bacdive_data
+        
+        url: str = await addQueryToURL(portal)
 
+        if portal['web'] == 'wikidata':
             async with httpx.AsyncClient() as client:
                 response = await client.get(url)
                 response.raise_for_status()
                 data = response.json()
+
+            id = data['results']['bindings'][0]['item']['value'].split('/')[-1]
+
+            getDataById = f"https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids={id}&languages=en"
+
+            async with httpx.AsyncClient() as client:
+                response = await client.get(getDataById)
+                response.raise_for_status()
+                data = response.json()
+
             return data
-    
-        bacdive_data = await get_bacdive_data(portal['query']['name'])
-        return bacdive_data
+
+        elif portal['web'] == 'ncbi':
+            async with httpx.AsyncClient() as client:
+                response = await client.get(url)
+                response.raise_for_status()
+                data = xmltodict.parse(response.text)
+            
+            id = data['eSearchResult']['IdList']['Id']
+
+            getDataById = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=taxonomy&id={id}"
+            
+            async with httpx.AsyncClient() as client:
+                response = await client.get(getDataById)
+                response.raise_for_status()
+                data = xmltodict.parse(response.text)
+
+            return data
+
+        elif portal['web'] == 'gbif':
+            async with httpx.AsyncClient() as client:
+                response = await client.get(url)
+                response.raise_for_status()
+                data = response.json()
+            
+            return data
         
+        else:
+            return "No data found."
+    
     except httpx.HTTPError as e:
         raise HTTPException(status_code=e.response.status_code, detail=str(e))
     
