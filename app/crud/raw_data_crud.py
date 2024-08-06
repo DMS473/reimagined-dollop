@@ -1,21 +1,40 @@
 from fastapi import HTTPException
 from database.mongo import portal_collection, raw_collection, terms_collection
 from .portal_crud import retrieve_data
-import xmltodict
+
+from operations.wikidata_retrieval import wikidata_data_processing
+from operations.ncbi_retrieval import ncbi_data_processing
+from operations.gbif_retrieval import gbif_data_processing
+from operations.bacdive_retrieval import bacdive_data_processing
 
 async def store_raw_data_to_db_func(slug: str, web: str, species: str, retrieve_data: any):
     try:
+        print(retrieve_data)
+        if not retrieve_data:
+            raise HTTPException(status_code=404, detail="Data not found.")
+        
+        if not species:
+            raise HTTPException(status_code=400, detail="Species not found.")
+        
+        if not web:
+            raise HTTPException(status_code=400, detail="Web not found.")
+        
+        if not slug:
+            raise HTTPException(status_code=400, detail="Slug not found.")
+
         data_to_store: dict = {}
 
-        if web == 'gbif' or web == 'wikidata' or web == 'ncbi':
-            data_to_store = {
-                "data": retrieve_data
-            }
+        if web == 'wikidata':
+            data_to_store['data'] = await wikidata_data_processing(retrieve_data)
+
+        elif web == 'ncbi':
+            data_to_store['data'] = await ncbi_data_processing(retrieve_data)
+
+        elif web == 'gbif':
+            data_to_store['data'] = await gbif_data_processing(retrieve_data)
 
         elif web == 'bacdive':
-            data_to_store = {
-                "data": {str(k): v for k, v in retrieve_data.items()}
-            }
+            data_to_store['data'] = await bacdive_data_processing(retrieve_data)
 
         data_to_store['slug'] = slug
         data_to_store['web'] = web

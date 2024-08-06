@@ -2,10 +2,12 @@ from fastapi import HTTPException
 from database.mongo import portal_collection
 from urllib.parse import quote
 import httpx
-import bacdive
-import xmltodict
-from config import BACDIVE_EMAIL, BACDIVE_PASSWORD
 from common.message.message_enum import ResponseMessage
+
+from operations.wikidata_retrieval import wikidata_retrieve
+from operations.ncbi_retrieval import ncbi_retrieve
+from operations.gbif_retrieval import gbif_retrieve
+from operations.bacdive_retrieval import bacdive_retrieve
 
 # pre-process url to handle special characters
 async def pre_process_url(url: str) -> str:
@@ -40,27 +42,6 @@ async def addQueryToURL(portal: dict) -> str:
 async def portal_exists(slug: str) -> bool:
     portal = await portal_collection.find_one({"slug": slug})
     return portal
-
-# Get bacdive data
-async def get_bacdive_data(species_name: str):
-    try:
-        bacdive_client = bacdive.BacdiveClient(BACDIVE_EMAIL, BACDIVE_PASSWORD)
-        bacdive_count = bacdive_client.search(taxonomy=species_name)
-        # print(bacdive_count, 'strains found.')
-        
-        bacdive_dict: dict = {}
-        # filter=['BacDive-ID', 'species']
-
-        k = 0
-
-        for v in bacdive_client.retrieve():
-            bacdive_dict[k] = v 
-            k = k + 1
-        
-        return bacdive_dict
-    
-    except Exception as e:
-        raise Exception(f"An error occurred while getting bacdive data: {str(e)}")
 
 # Create portal in database
 async def create_portal(portal_data: dict) -> dict:
@@ -141,54 +122,18 @@ async def retrieve_data(slug: str):
             raise HTTPException(status_code=404, detail="Portal not found.")
 
         if portal['web'] == 'bacdive':
-            bacdive_data = await get_bacdive_data(portal['query']['name'])
-            return bacdive_data
+            return await bacdive_retrieve(portal['query']['name'])
         
         url: str = await addQueryToURL(portal)
 
         if portal['web'] == 'wikidata':
-            async with httpx.AsyncClient() as client:
-                response = await client.get(url)
-                response.raise_for_status()
-                data = response.json()
-
-            id = data['results']['bindings'][0]['item']['value'].split('/')[-1]
-
-            getDataById = f"https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids={id}&languages=en"
-
-            async with httpx.AsyncClient() as client:
-                response = await client.get(getDataById)
-                response.raise_for_status()
-                data = response.json()
-
-            return data
+            return await wikidata_retrieve(url)
 
         elif portal['web'] == 'ncbi':
-            async with httpx.AsyncClient() as client:
-                response = await client.get(url)
-                response.raise_for_status()
-                data = xmltodict.parse(response.text)
-            
-            id = data['eSearchResult']['IdList']['Id']
-
-            getDataById = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=taxonomy&id={id}"
-            
-            async with httpx.AsyncClient() as client:
-                response = await client.get(getDataById)
-                response.raise_for_status()
-                data = xmltodict.parse(response.text)
-
-            return data
+            return await ncbi_retrieve(url)
 
         elif portal['web'] == 'gbif':
-            async with httpx.AsyncClient() as client:
-                response = await client.get(url)
-                response.raise_for_status()
-                data = response.json()
-            
-            return data
-        
-        
+            return await gbif_retrieve(url)
         
         else:
             return "No data found."
