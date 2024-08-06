@@ -88,3 +88,26 @@ async def store_raw_data_to_terms(species: list):
     
     except Exception as e:
         raise Exception(f"An error occurred while storing data to terms collection: {str(e)}")
+    
+async def delete_raw_data_from_db(slug: str):
+    try:
+        if not await raw_collection.find_one({'slug': slug}):
+            raise HTTPException(status_code=404, detail="Raw data not found.")
+        
+        await raw_collection.delete_one(
+            {"slug": slug}
+        )
+
+        return "Raw data deleted successfully."
+    
+    except Exception as e:
+        raise Exception(f"An error occurred while deleting raw data: {str(e)}")
+    
+async def get_raw_data(species: list) -> list:
+    try:
+        species_for_query = [i for i in species][0][1]
+        raw_datas = await raw_collection.find({'species': {'$in': species_for_query}}, {'_id': 0} ).to_list(length=1000)
+        return raw_datas
+
+    except Exception as e:
+        raise Exception(f"An error occurred while retrieving raw data: {str(e)}")

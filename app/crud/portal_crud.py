@@ -188,6 +188,8 @@ async def retrieve_data(slug: str):
             
             return data
         
+        
+        
         else:
             return "No data found."
     
