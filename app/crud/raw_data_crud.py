@@ -9,7 +9,6 @@ from operations.bacdive_retrieval import bacdive_data_processing
 
 async def store_raw_data_to_db_func(slug: str, web: str, species: str, retrieve_data: any):
     try:
-        print(retrieve_data)
         if not retrieve_data:
             raise HTTPException(status_code=404, detail="Data not found.")
         
@@ -67,11 +66,15 @@ async def store_raw_data_to_db(slug: str):
     except Exception as e:
         raise Exception(f"An error occurred while storing data to raw data collection: {str(e)}")
 
-async def store_raw_data_from_portals(species: list):
+async def store_raw_data_from_portals(params: list):
     try:
-        species_for_query = [i for i in species][0][1] 
+        species_for_query = params.species
+        web_for_query = params.web
 
-        portals = await portal_collection.find({'species': {'$in': species_for_query}}).to_list(length=1000)
+        portals = await portal_collection.find({
+            'species': {'$in': species_for_query},
+            'web': {'$in': web_for_query}
+        }).to_list(length=1000)
 
         for portal in portals:
             return_retrieve_data = await retrieve_data(portal['slug'])
@@ -82,28 +85,38 @@ async def store_raw_data_from_portals(species: list):
     except Exception as e:
         raise Exception(f"An error occurred while storing data from all portal: {str(e)}")
     
-async def store_raw_data_to_terms(species: list):
+async def store_raw_data_to_terms(params: list):
     try:
-        species_for_query = [i for i in species][0][1]
+        species_for_query = params.species
+        web_for_query = params.web
+
+        terms: dict = {}
 
         for species in species_for_query:
-            print(species)
-            raw_datas = await raw_collection.find({'species': species}).to_list(length=1000)
-            terms = await terms_collection.find_one({'species': species})
-            if not terms:
-                break
+            terms[species] = (await terms_collection.find_one({'species': species}, {'data': 1, '_id': 0}))['data']
 
-            newData: dict = {}
+        for species in species_for_query:
+            for web in web_for_query:
+                raw_data = await raw_collection.find_one({
+                    'species': species,
+                    'web': web
+                })
 
-            for raw_data in raw_datas:
-                newData[raw_data['web']] = raw_data['data']
+                if not raw_data:
+                    continue
 
+                terms[species][web] = raw_data['data']
+
+        # return terms
+        
+        for species in species_for_query:
             await terms_collection.update_one(
                 {"species": species},
-                {"$set": {"data": newData}}
+                {"$set": {"data": terms[species]}},
+                upsert=True
             )
 
-        return "All data stored successfully."
+        return "Data stored to terms successfully."
     
     except Exception as e:
         raise Exception(f"An error occurred while storing data to terms collection: {str(e)}")
@@ -122,10 +135,16 @@ async def delete_raw_data_from_db(slug: str):
     except Exception as e:
         raise Exception(f"An error occurred while deleting raw data: {str(e)}")
     
-async def get_raw_data(species: list) -> list:
+async def get_raw_data(params: list) -> list:
     try:
-        species_for_query = [i for i in species][0][1]
-        raw_datas = await raw_collection.find({'species': {'$in': species_for_query}}, {'_id': 0} ).to_list(length=1000)
+        species_for_query = params.species
+        web_for_query = params.web
+
+        raw_datas = await raw_collection.find({
+            'species': {'$in': species_for_query},
+            'web': {'$in': web_for_query}
+        }, {'_id': 0} ).to_list(length=1000)
+
         return raw_datas
 
     except Exception as e:
