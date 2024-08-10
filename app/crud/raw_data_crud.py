@@ -51,23 +51,14 @@ async def store_raw_data_to_db_func(slug: str, web: str, species: str, retrieve_
     except Exception as e:
         raise Exception(f"An error occurred while storing data to db: {str(e)}")
     
-async def store_raw_data_to_db(slug: str):
-    try:
-        portal = await portal_collection.find_one({'slug': slug})
-        if not portal:
-            raise HTTPException(status_code=404, detail="Portal not found.")
-        
-        return_retrieve_data = await retrieve_data(slug)
-
-        data = await store_raw_data_to_db_func(portal['slug'], portal['web'], portal['species'], return_retrieve_data)
-
-        return data
-    
-    except Exception as e:
-        raise Exception(f"An error occurred while storing data to raw data collection: {str(e)}")
-
 async def store_raw_data_from_portals(params: list):
     try:
+        if not params.species:
+            raise HTTPException(status_code=400, detail="Species not found. Please re-check the species.")
+        
+        if not params.web:
+            raise HTTPException(status_code=400, detail="Web not found. Please re-check the web.")
+        
         species_for_query = params.species
         web_for_query = params.web
 
@@ -75,6 +66,9 @@ async def store_raw_data_from_portals(params: list):
             'species': {'$in': species_for_query},
             'web': {'$in': web_for_query}
         }).to_list(length=1000)
+
+        if not portals:
+            raise HTTPException(status_code=404, detail="Portals not found. Please re-check the species and web.")
 
         for portal in portals:
             return_retrieve_data = await retrieve_data(portal['slug'])
@@ -87,13 +81,27 @@ async def store_raw_data_from_portals(params: list):
     
 async def store_raw_data_to_terms(params: list):
     try:
+        if not params.species:
+            raise HTTPException(status_code=400, detail="Species not found. Please re-check the species.")
+        
+        if not params.web:
+            raise HTTPException(status_code=400, detail="Web not found. Please re-check the web.")
+
         species_for_query = params.species
         web_for_query = params.web
 
         terms: dict = {}
 
         for species in species_for_query:
-            terms[species] = (await terms_collection.find_one({'species': species}, {'data': 1, '_id': 0}))['data']
+            result = await terms_collection.find_one({'species': species}, {'data': 1, '_id': 0})
+
+            if not result['data']:
+                continue
+           
+            terms[species] = result['data']
+
+        if not terms:
+            raise HTTPException(status_code=404, detail="Terms not found. Please re-check the species and web.")
 
         for species in species_for_query:
             for web in web_for_query:
@@ -106,8 +114,6 @@ async def store_raw_data_to_terms(params: list):
                     continue
 
                 terms[species][web] = raw_data['data']
-
-        # return terms
         
         for species in species_for_query:
             await terms_collection.update_one(
