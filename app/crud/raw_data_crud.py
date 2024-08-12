@@ -7,6 +7,20 @@ from operations.ncbi_retrieval import ncbi_data_processing
 from operations.gbif_retrieval import gbif_data_processing
 from operations.bacdive_retrieval import bacdive_data_processing
 
+async def check_params(params: list):
+    try:
+        print(params)
+        if not params.species:
+            raise HTTPException(status_code=400, detail="Species not found. Please re-check the species.")
+        
+        if not params.web:
+            raise HTTPException(status_code=400, detail="Web not found. Please re-check the web.")
+        
+        return params
+    
+    except Exception as e:
+        raise Exception(f"An error occurred while checking params: {str(e)}")
+
 async def store_raw_data_to_db_func(slug: str, web: str, species: str, retrieve_data: any):
     try:
         if not retrieve_data:
@@ -53,11 +67,7 @@ async def store_raw_data_to_db_func(slug: str, web: str, species: str, retrieve_
     
 async def store_raw_data_from_portals(params: list):
     try:
-        if not params.species:
-            raise HTTPException(status_code=400, detail="Species not found. Please re-check the species.")
-        
-        if not params.web:
-            raise HTTPException(status_code=400, detail="Web not found. Please re-check the web.")
+        await check_params(params)
         
         species_for_query = params.species
         web_for_query = params.web
@@ -81,11 +91,7 @@ async def store_raw_data_from_portals(params: list):
     
 async def store_raw_data_to_terms(params: list):
     try:
-        if not params.species:
-            raise HTTPException(status_code=400, detail="Species not found. Please re-check the species.")
-        
-        if not params.web:
-            raise HTTPException(status_code=400, detail="Web not found. Please re-check the web.")
+        await check_params(params)
 
         species_for_query = params.species
         web_for_query = params.web
@@ -127,14 +133,20 @@ async def store_raw_data_to_terms(params: list):
     except Exception as e:
         raise Exception(f"An error occurred while storing data to terms collection: {str(e)}")
     
-async def delete_raw_data_from_db(slug: str):
+async def delete_raw_data_from_db(params: list):
     try:
-        if not await raw_collection.find_one({'slug': slug}):
-            raise HTTPException(status_code=404, detail="Raw data not found.")
+        await check_params(params)
         
-        await raw_collection.delete_one(
-            {"slug": slug}
-        )
+        species_for_query = params.species
+        web_for_query = params.web
+
+        deleted = await raw_collection.delete_many({
+            'species': {'$in': species_for_query},
+            'web': {'$in': web_for_query}
+        })
+
+        if deleted.deleted_count == 0:
+            raise HTTPException(status_code=404, detail="Raw data not found. Please re-check the species and web.")
 
         return "Raw data deleted successfully."
     
@@ -143,6 +155,8 @@ async def delete_raw_data_from_db(slug: str):
     
 async def get_raw_data(params: list) -> list:
     try:
+        await check_params(params)
+        
         species_for_query = params.species
         web_for_query = params.web
 
