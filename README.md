@@ -1,30 +1,58 @@
-# INNAKM
+# INNAKM Rest API Documentation
+For code requirements, please visit [INNAKM Github Repository](https://github.com/fikridean/INNAKM).
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
+## Installations
+* `git clone https://github.com/fikridean/INNAKM.git` - Clone the project from INNAKM Github Repository.
+* `pip install -r requirements.txt` - Install the required dependencies
+* `fastapi dev app/main.py` - Run FastAPI.
 
-## Introduction
-INNAKM is a project designed to manage portals with unique slugs. It ensures that each portal has a unique identifier (slug) and provides functionality to create and manage these portals using Python, Pydantic, and MongoDB.
+## Project Structure
 
-## Features
-- Create portals with unique slugs.
-- Validate slug uniqueness before saving to the database.
-- Handle database operations using MongoDB Motor.
+This document outlines the structure of the project, detailing the purpose of each directory and file.
 
-## Installation
-To install and set up the project, follow these steps:
+### Root Directory
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/fikridean/INNAKM.git
-    ```
-2. Install the required dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
-3. Run FastAPI
-    ```
-    fastapi dev app/main.py
-    ```
+- **README.md** - The main documentation file for the project.
+- **mkdocs.yml** - The configuration file for the documentation generator.
+- **requirements.txt** - The file containing the required dependencies for the project.
+
+### app/ - Application Code
+
+#### common/ - Common Utilities and Helper Functions
+- **message/**
+  - **message_enum.py** - Defines message enums.
+
+#### config.py - Configuration Settings
+- Contains settings for the application.
+
+#### crud/ - CRUD Operations
+- **portal_crud.py** - CRUD operations for the portal entity.
+- **raw_data_crud.py** - CRUD operations for the raw data entity.
+
+#### database/ - Database-Related Code
+- **mongo.py** - Handles MongoDB database connection and operations.
+
+#### main.py - Main Entry Point
+- The main file that starts the application.
+
+#### models/ - Data Models
+- **portal_model.py** - Defines the portal data model.
+- **raw_data_model.py** - Defines the raw data model.
+
+#### operations/ - Various Operations
+- **bacdive_retrieval.py** - Handles BacDive data retrieval operations.
+- **gbif_retrieval.py** - Handles GBIF data retrieval operations.
+- **ncbi_retrieval.py** - Handles NCBI data retrieval operations.
+- **(Placeholder)** - Placeholder for another operation file.
+
+#### routers/ - API Routers
+- **portal_router.py** - Defines the router for the portal API.
+- **raw_data_router.py** - Defines the router for the raw data API.
+
+#### utils/ - Utility Functions
+- **response_helper.py** - Helper functions for generating API responses.
+
+### docs/ - Documentation Files
+- **index.md** - The main documentation file for the project.
+
+### (Placeholder) - Placeholder for another file or directory
