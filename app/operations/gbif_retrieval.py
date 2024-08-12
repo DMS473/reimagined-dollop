@@ -2,12 +2,14 @@ import httpx
 
 async def gbif_retrieve(url):
   try:
-      async with httpx.AsyncClient() as client:
+    # Send a GET request to the specified URL using an AsyncClient
+    async with httpx.AsyncClient() as client:
         response = await client.get(url)
         response.raise_for_status()
         data = response.json()
 
-      return data
+    # Return the retrieved data
+    return data
 
   except Exception as e:
       raise Exception(f"An error occurred while retrieving data: {str(e)}")

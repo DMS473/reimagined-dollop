@@ -1,0 +1,68 @@
+.
+├── README.md
+├── __pycache__
+│   └── main.cpython-310.pyc
+├── app
+│   ├── __pycache__
+│   │   ├── config.cpython-310.pyc
+│   │   └── main.cpython-310.pyc
+│   ├── common
+│   │   └── message
+│   │       ├── __pycache__
+│   │       │   └── message_enum.cpython-310.pyc
+│   │       └── message_enum.py
+│   ├── config.py
+│   ├── crud
+│   │   ├── __pycache__
+│   │   │   ├── item_crud.cpython-310.pyc
+│   │   │   ├── portal_crud.cpython-310.pyc
+│   │   │   ├── portals_crud.cpython-310.pyc
+│   │   │   └── raw_data_crud.cpython-310.pyc
+│   │   ├── portal_crud.py
+│   │   └── raw_data_crud.py
+│   ├── database
+│   │   ├── __pycache__
+│   │   │   └── mongo.cpython-310.pyc
+│   │   └── mongo.py
+│   ├── main.py
+│   ├── models
+│   │   ├── __pycache__
+│   │   │   ├── item_model.cpython-310.pyc
+│   │   │   ├── portal_model.cpython-310.pyc
+│   │   │   └── raw_data_model.cpython-310.pyc
+│   │   ├── portal_model.py
+│   │   └── raw_data_model.py
+│   ├── operations
+│   │   ├── __pycache__
+│   │   │   ├── bacdive_retrieval.cpython-310.pyc
+│   │   │   ├── gbif_retrieval.cpython-310.pyc
+│   │   │   ├── ncbi_retrieval.cpython-310.pyc
+│   │   │   └── wikidata_retrieval.cpython-310.pyc
+│   │   ├── bacdive_retrieval.py
+│   │   ├── gbif_retrieval.py
+│   │   ├── ncbi_retrieval.py
+│   │   └── wikidata_retrieval.py
+│   ├── routers
+│   │   ├── __pycache__
+│   │   │   ├── item_router.cpython-310.pyc
+│   │   │   ├── portal_router.cpython-310.pyc
+│   │   │   └── raw_data_router.cpython-310.pyc
+│   │   ├── portal_router.py
+│   │   └── raw_data_router.py
+│   └── utils
+│       ├── __pycache__
+│       │   ├── item_helper.cpython-310.pyc
+│       │   ├── portal_helper.cpython-310.pyc
+│       │   ├── raw_data_helper.cpython-310.pyc
+│       │   └── response_helper.cpython-310.pyc
+│       └── response_helper.py
+├── docs
+│   ├── A.md
+│   ├── B.md
+│   ├── C.md
+│   └── index.md
+├── mkdocs.yml
+├── my_tree_structure.txt
+└── requirements.txt
+
+19 directories, 46 files

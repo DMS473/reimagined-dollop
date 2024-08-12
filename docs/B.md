@@ -1,0 +1,51 @@
+# Portals & Species
+
+## Types of portals
+- [WikiData](https://www.wikidata.org/)
+- [NCBI](https://www.ncbi.nlm.nih.gov/)
+- [BacDive](https://bacdive.dsmz.de/)
+- [GBIF](https://www.gbif.org/)
+
+## Species
+- Achromobacter mucicolens
+- Aeromonas hydrophila
+- Chelatococcus thermostellatus
+- Cobetia marina
+- Dactylosporangium aurantiacum
+- Empedobacter tilapiae
+- Escherichia fergusonii
+- Klebsiella aerogenes
+- Klebsiella pasteurii
+- Klebsiella pneumoniae
+- Lactiplantibacillus plantarum
+- Luteibacter jiangsuensis
+- Myxococcus stipitatus
+- Ochrobactrum quorumnocens
+- Pantoea agglomerans
+- Pantoea dispersa
+- Pseudomonas ceruminis
+- Pseudomonas palmensis
+- Pseudomonas qingdaonensis
+- Raoultella ornithinolytica
+- Rhodopseudomonas palustris
+- Stenotrophomonas maltophilia
+- Streptomyces fagopyri
+- Streptomyces lutosisoli
+- Streptomyces mirabilis
+- Stutzerimonas stutzeri
+- Xanthomonas campestris
+- Rhizobium leguminosarum
+- Streptomyces kunmingensis
+- Streptomyces rochei
+- Streptomyces griseorubens
+- Streptomyces sp.
+- Streptomyces sampsonii
+- Micromonospora chalcea
+- Klebsiella quasuvaricola
+- Escherichia coli
+- Gulosibacter sp.
+- Pseudomonas hibiscicola
+- Providencia rettgeri
+- Burkholderia sp.
+- Klebsiella oxytoca
+- Brevibacterium ammoniilyticum

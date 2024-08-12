@@ -1,0 +1,35 @@
+# Project Structure
+
+- **app/**: Main directory for the FastAPI application.
+    - **common/**
+        - **message/**
+            - **message_enum.py**: Defines enums for different message types used in the application.
+    - **config.py**: Contains configuration settings for the FastAPI application.
+    - **crud/**
+        - **portal_crud.py**: Manages CRUD operations for the `portals` collection.
+        - **raw_data_crud.py**: Manages CRUD operations for the `raw_data` collection.
+    - **database/**
+        - **mongo.py**: Manages MongoDB connections and related utilities.
+    - **main.py**: Entry point for the FastAPI application. Initializes the app, includes routers, and starts the server.
+    - **models/**
+        - **portal_model.py**: Defines the data model for the `portals` collection.
+        - **raw_data_model.py**: Defines the data model for the `raw_data` collection.
+    - **operations/**
+        - **bacdive_retrieval.py**: Handles data retrieval from the BacDive database.
+        - **gbif_retrieval.py**: Handles data retrieval from the GBIF database.
+        - **ncbi_retrieval.py**: Handles data retrieval from the NCBI database.
+        - **wikidata_retrieval.py**: Handles data retrieval from Wikidata.
+    - **routers/**
+        - **portal_router.py**: Manages routes related to the `portals` collection.
+        - **raw_data_router.py**: Manages routes related to the `raw_data` collection.
+    - **utils/**
+        - **response_helper.py**: Provides utilities for standardizing API responses.
+- **docs/**
+    - **A.md**: Tutorial section for documentation.
+    - **B.md**: Database section for documentation.
+    - **C.md**: Project structure section for documentation.
+    - **index.md**: Introduction section for documentation.
+- **mkdocs.yml**: Configuration file for MkDocs, used to build project documentation.
+- **tree_structure.txt**: Contains the structure of the project directory.
+- **requirements.txt**: Lists Python dependencies required to run the application.
+- **README.md**: Provides an overview of the project, including its structure and instructions for setup and usage.

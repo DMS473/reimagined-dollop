@@ -3,17 +3,25 @@ import httpx
 async def wikidata_retrieve(url):
     try:
         async with httpx.AsyncClient() as client:
+          # Send a GET request to the specified URL
           response = await client.get(url)
           response.raise_for_status()
+
+          # Parse the response as JSON
           data = response.json()
 
+        # Extract the ID from the JSON data
         id = data['results']['bindings'][0]['item']['value'].split('/')[-1]
 
+        # Construct the URL to fetch data by ID from Wikidata API
         getDataById = f"https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids={id}&languages=en"
 
         async with httpx.AsyncClient() as client:
+          # Send a GET request to fetch data by ID from Wikidata API
           response = await client.get(getDataById)
           response.raise_for_status()
+          
+          # Parse the response as JSON
           data = response.json()
 
         return data
