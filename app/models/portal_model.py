@@ -16,9 +16,9 @@ class PortalDetailModel(PortalModel):
     retrieve_data_url: str
 
 class PortalUpdateModel(BaseModel):
-    name: Optional[str] = None
-    slug: Optional[str] = None
-    base_url: Optional[str] = None
+    name: Optional[str] = Field(..., min_length=1, max_length=100)
+    slug: Optional[str] = Field(..., min_length=1, max_length=100)
+    base_url: Optional[str] = Field(..., min_length=1, max_length=100)
     query: Optional[dict] = None
-    web: Optional[str] = None
-    species: Optional[str] = None
+    web: Optional[str] = Field(..., min_length=1, max_length=100)
+    species: Optional[str] = Field(..., min_length=1, max_length=100)

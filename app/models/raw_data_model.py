@@ -10,9 +10,6 @@ class RawDataBaseModel(BaseModel):
 class RawDataModel(RawDataBaseModel):
     id: str
 
-class ListOfSpecies(BaseModel):
-    species: list
-
 class ListOfParams(BaseModel):
-    species: Optional[list] = None
-    web: Optional[list] = None
+    species: Optional[list[str]] = None
+    web: Optional[list[str]] = None
