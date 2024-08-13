@@ -6,3 +6,6 @@ This project is designed to facilitate the management of information across diff
 - Managing portal-related data.
 - Collecting and storing raw data.
 - Processing raw data into terms, which are then stored for later use.
+
+## Next Step
+To continue with the next step, please refer to the [Tutorial](./A.md) for detailed instructions.
