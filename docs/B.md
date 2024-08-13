@@ -49,3 +49,6 @@
 - Burkholderia sp.
 - Klebsiella oxytoca
 - Brevibacterium ammoniilyticum
+
+## Next Step
+To proceed to the next step, please refer to the [Data Parsing](./C.md) section for detailed instructions on parsing the data.

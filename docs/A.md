@@ -7,3 +7,6 @@
 * `mkdocs serve`: This project use **MkDocs** to build and view the documentation. Run this command to preview it locally.
 
 For more information, please visit [INNAKM Github Repository](https://github.com/fikridean/INNAKM).
+
+## Next Step
+To continue with the next step, please refer to the [Portals & Species](./B.md) for detailed instructions to understand what portal and species refer to.

@@ -10,7 +10,7 @@ app.include_router(raw_data_router.router, prefix="/raws", tags=["raws"])
 
 if __name__ == "__main__":
     try:
-        uvicorn.run(app, host=HOST, port=PORT)
+        uvicorn.run(app, host=HOST, port=int(PORT))
 
     except Exception as e:
         raise Exception(f"An error occurred while running the app: {str(e)}")
