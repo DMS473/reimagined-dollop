@@ -1,8 +1,14 @@
 import httpx
 import xmltodict
+from utils.func_helper import convert_to_string, addQueryToURL
 
-async def ncbi_retrieve(url):
+# index_object = {"species": 1, "genus": 1, "family": 1, "order": 1, "class": 1, "phylum": 1}
+
+async def retrieve(portal: dict) -> dict:
     try:
+        # Construct the URL to retrieve data from the NCBI API
+        url = await addQueryToURL(portal)
+
         # Create an asynchronous HTTP client session
         async with httpx.AsyncClient() as client:
             # Send a GET request to the specified URL
@@ -33,9 +39,9 @@ async def ncbi_retrieve(url):
     except Exception as e:
         raise Exception(f"An error occurred while retrieving data: {str(e)}")
 
-async def ncbi_data_processing(retrieve_data):
+async def data_processing(retrieve_data) -> str:
     try:
-        return retrieve_data
+        return convert_to_string(retrieve_data)
     
     except Exception as e:
         raise Exception(f"An error occurred while processing data: {str(e)}")

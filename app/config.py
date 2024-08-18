@@ -27,3 +27,7 @@ if not HOST:
 PORT = os.getenv("PORT")
 if not PORT:
     raise ValueError("PORT must be defined.")
+
+OPERATIONS_FOLDERS = os.getenv("OPERATIONS_FOLDERS")
+if not OPERATIONS_FOLDERS:
+    raise ValueError("OPERATIONS_FOLDERS must be defined.")
