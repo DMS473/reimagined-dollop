@@ -1,7 +1,13 @@
 import httpx
+from utils.func_helper import convert_to_string, addQueryToURL
 
-async def gbif_retrieve(url):
+index_object = {"data.species": 1, "data.genus": 1, "data.family": 1, "data.order": 1, "data.class": 1, "data.phylum": 1}
+
+async def retrieve(portal: dict) -> dict:
   try:
+    # Construct the URL to retrieve data from the GBIF API
+    url = await addQueryToURL(portal)
+
     # Send a GET request to the specified URL using an AsyncClient
     async with httpx.AsyncClient() as client:
         response = await client.get(url)
@@ -14,9 +20,9 @@ async def gbif_retrieve(url):
   except Exception as e:
       raise Exception(f"An error occurred while retrieving data: {str(e)}")
   
-async def gbif_data_processing(retrieve_data):
+async def data_processing(retrieve_data) -> str:
     try:
-        return retrieve_data
+        return convert_to_string(retrieve_data)
     
     except Exception as e:
         raise Exception(f"An error occurred while processing data: {str(e)}")

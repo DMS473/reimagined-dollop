@@ -1,10 +1,10 @@
 # Portals & Species
 
 ## Types of portals
-- [WikiData](https://www.wikidata.org/)
-- [NCBI](https://www.ncbi.nlm.nih.gov/)
-- [BacDive](https://bacdive.dsmz.de/)
-- [GBIF](https://www.gbif.org/)
+- <a href="https://www.wikidata.org/" target="_blank">WikiData</a>
+- <a href="https://www.ncbi.nlm.nih.gov/" target="_blank">NCBI</a>
+- <a href="https://bacdive.dsmz.de/" target="_blank">BacDive</a>
+- <a href="https://www.gbif.org/" target="_blank">GBIF</a>
 
 ## Species
 - Achromobacter mucicolens

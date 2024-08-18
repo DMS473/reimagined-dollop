@@ -16,7 +16,7 @@ async def create_portal_route_func(portal_data: PortalBaseModel):
         return error_response(message=str(e), status_code=400)
 
 # Update portal
-@router.put('/{slug}', response_model=PortalUpdateModel, status_code=status.HTTP_200_OK)
+@router.put('/{slug}', response_model=PortalModel, status_code=status.HTTP_200_OK)
 async def update_portal_route_func(slug: str, portal_data: PortalUpdateModel):
     try:
         update_data = {k: v for k, v in portal_data.__dict__.items() if v is not None}
