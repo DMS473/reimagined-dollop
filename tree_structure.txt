@@ -6,63 +6,98 @@
 │   ├── __pycache__
 │   │   ├── config.cpython-310.pyc
 │   │   └── main.cpython-310.pyc
-│   ├── common
-│   │   └── message
-│   │       ├── __pycache__
-│   │       │   └── message_enum.cpython-310.pyc
-│   │       └── message_enum.py
 │   ├── config.py
 │   ├── crud
 │   │   ├── __pycache__
 │   │   │   ├── item_crud.cpython-310.pyc
 │   │   │   ├── portal_crud.cpython-310.pyc
 │   │   │   ├── portals_crud.cpython-310.pyc
-│   │   │   └── raw_data_crud.cpython-310.pyc
+│   │   │   ├── raw_data_crud.cpython-310.pyc
+│   │   │   └── term_crud.cpython-310.pyc
 │   │   ├── portal_crud.py
-│   │   └── raw_data_crud.py
+│   │   ├── raw_data_crud.py
+│   │   └── term_crud.py
 │   ├── database
 │   │   ├── __pycache__
 │   │   │   └── mongo.cpython-310.pyc
 │   │   └── mongo.py
+│   ├── log
+│   │   ├── app.log
+│   │   └── request.log
 │   ├── main.py
 │   ├── models
 │   │   ├── __pycache__
 │   │   │   ├── item_model.cpython-310.pyc
 │   │   │   ├── portal_model.cpython-310.pyc
-│   │   │   └── raw_data_model.cpython-310.pyc
+│   │   │   ├── raw_data_model.cpython-310.pyc
+│   │   │   └── term_model.cpython-310.pyc
 │   │   ├── portal_model.py
-│   │   └── raw_data_model.py
+│   │   ├── raw_data_model.py
+│   │   └── term_model.py
 │   ├── operations
 │   │   ├── __pycache__
+│   │   │   ├── bacdive.cpython-310.pyc
 │   │   │   ├── bacdive_retrieval.cpython-310.pyc
+│   │   │   ├── gbif.cpython-310.pyc
 │   │   │   ├── gbif_retrieval.cpython-310.pyc
+│   │   │   ├── ncbi.cpython-310.pyc
 │   │   │   ├── ncbi_retrieval.cpython-310.pyc
+│   │   │   ├── wikidata.cpython-310.pyc
 │   │   │   └── wikidata_retrieval.cpython-310.pyc
-│   │   ├── bacdive_retrieval.py
-│   │   ├── gbif_retrieval.py
-│   │   ├── ncbi_retrieval.py
-│   │   └── wikidata_retrieval.py
+│   │   ├── bacdive.py
+│   │   ├── gbif.py
+│   │   ├── ncbi.py
+│   │   └── wikidata.py
 │   ├── routers
 │   │   ├── __pycache__
 │   │   │   ├── item_router.cpython-310.pyc
 │   │   │   ├── portal_router.cpython-310.pyc
-│   │   │   └── raw_data_router.cpython-310.pyc
+│   │   │   ├── raw_data_router.cpython-310.pyc
+│   │   │   └── term_router.cpython-310.pyc
 │   │   ├── portal_router.py
-│   │   └── raw_data_router.py
+│   │   ├── raw_data_router.py
+│   │   └── term_router.py
 │   └── utils
 │       ├── __pycache__
+│       │   ├── func_helper.cpython-310.pyc
 │       │   ├── item_helper.cpython-310.pyc
 │       │   ├── portal_helper.cpython-310.pyc
 │       │   ├── raw_data_helper.cpython-310.pyc
 │       │   └── response_helper.cpython-310.pyc
-│       └── response_helper.py
+│       ├── decorator
+│       │   ├── __pycache__
+│       │   │   └── app_log_decorator.cpython-310.pyc
+│       │   └── app_log_decorator.py
+│       ├── helper
+│       │   ├── __pycache__
+│       │   │   ├── func_helper.cpython-310.pyc
+│       │   │   └── response_helper.cpython-310.pyc
+│       │   ├── func_helper.py
+│       │   └── response_helper.py
+│       ├── message
+│       │   ├── __pycache__
+│       │   │   └── message_enum.cpython-310.pyc
+│       │   └── message_enum.py
+│       └── middleware
+│           ├── __pycache__
+│           │   ├── log_middleware.cpython-310.pyc
+│           │   └── request_log_middleware.cpython-310.pyc
+│           └── request_log_middleware.py
+├── app.log
 ├── docs
 │   ├── A.md
 │   ├── B.md
 │   ├── C.md
+│   ├── D.md
+│   ├── E.md
+│   ├── assets
+│   │   ├── logo_full.png
+│   │   ├── logo_full_2.jpeg
+│   │   ├── logo_full_3.png
+│   │   └── logo_full_4.png
 │   └── index.md
 ├── mkdocs.yml
-├── my_tree_structure.txt
-└── requirements.txt
+├── requirements.txt
+└── tree_structure.txt
 
-19 directories, 46 files
+26 directories, 74 files
