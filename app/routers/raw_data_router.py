@@ -1,7 +1,7 @@
 from fastapi import APIRouter, status
 from crud.raw_data_crud import store_raw_data_from_portals, store_raw_data_to_terms, delete_raw_data_from_db, get_raw_data
-from utils.response_helper import success_response, error_response
-from common.message.message_enum import ResponseMessage
+from utils.helper.response_helper import success_response, error_response
+from utils.message.message_enum import ResponseMessage
 from models.raw_data_model import RawDataModel, ListOfParams
 router = APIRouter()
 

@@ -1,8 +1,8 @@
 from fastapi import APIRouter, status
 from models.portal_model import PortalBaseModel, PortalModel, PortalDetailModel, PortalUpdateModel
 from crud.portal_crud import get_portals, get_portal_by_slug, retrieve_data, create_portal, update_portal, delete_portal
-from utils.response_helper import success_response, error_response
-from common.message.message_enum import ResponseMessage
+from utils.helper.response_helper import success_response, error_response
+from utils.message.message_enum import ResponseMessage
 
 router = APIRouter()
 

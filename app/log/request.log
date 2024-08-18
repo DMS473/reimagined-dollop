@@ -1,0 +1,114 @@
+Request: GET http://127.0.0.1:8000/portals
+Headers: Headers({'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '09b80421-9d3b-4bc8-8307-6efb41539791', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'})
+Response status: 307
+Time taken: 0.0004642009735107422 seconds
+Activity: GET http://127.0.0.1:8000/portals
+
+Request: GET http://127.0.0.1:8000/portals/
+Headers: Headers({'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '09b80421-9d3b-4bc8-8307-6efb41539791', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'referer': 'http://127.0.0.1:8000/portals', 'host': '127.0.0.1:8000'})
+Response status: 200
+Time taken: 0.07745575904846191 seconds
+Activity: GET http://127.0.0.1:8000/portals/
+
+Request: GET http://127.0.0.1:8000/portals
+Headers: Headers({'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': 'a2ffdda0-5dea-428f-bf93-5fe73586a892', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'})
+Response status: 307
+Time taken: 0.0005571842193603516 seconds
+Activity: GET http://127.0.0.1:8000/portals
+
+Request: GET http://127.0.0.1:8000/portals/
+Headers: Headers({'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': 'a2ffdda0-5dea-428f-bf93-5fe73586a892', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'referer': 'http://127.0.0.1:8000/portals', 'host': '127.0.0.1:8000'})
+Response status: 200
+Time taken: 0.07640910148620605 seconds
+Activity: GET http://127.0.0.1:8000/portals/
+
+Request: GET http://127.0.0.1:8000/portals
+Headers: Headers({'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '76b6865d-bea7-468c-aedc-f6364f2f797c', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'})
+Response status: 307
+Time taken: 0.0008108615875244141 seconds
+Activity: GET http://127.0.0.1:8000/portals
+
+Request: GET http://127.0.0.1:8000/portals/
+Headers: Headers({'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '76b6865d-bea7-468c-aedc-f6364f2f797c', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'referer': 'http://127.0.0.1:8000/portals', 'host': '127.0.0.1:8000'})
+Response status: 200
+Time taken: 0.5683584213256836 seconds
+Activity: GET http://127.0.0.1:8000/portals/
+
+Request: GET http://127.0.0.1:8000/portals/bacdive-achromobacter-mucicolens
+Headers: Headers({'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '12823f30-924b-45e7-bfa8-94c5975b90eb', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'})
+Response status: 200
+Time taken: 0.08484172821044922 seconds
+Activity: GET http://127.0.0.1:8000/portals/bacdive-achromobacter-mucicolens
+
+Request: POST http://127.0.0.1:8000/portals/
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': 'c453969a-29d2-4513-a00f-9094431a22cf', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '167'})
+Response status: 200
+Time taken: 0.19312596321105957 seconds
+Activity: POST http://127.0.0.1:8000/portals/
+
+Request: PUT http://127.0.0.1:8000/portals/testing-slug
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '0ef3eac7-1ba0-44a6-ae47-08f953bf7c03', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '23'})
+Response status: 200
+Time taken: 0.15665292739868164 seconds
+Activity: PUT http://127.0.0.1:8000/portals/testing-slug
+
+Request: DELETE http://127.0.0.1:8000/portals/testing-slug
+Headers: Headers({'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '626da5c2-8631-4dd3-ab5a-07110cb5b624', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'})
+Response status: 200
+Time taken: 0.12298178672790527 seconds
+Activity: DELETE http://127.0.0.1:8000/portals/testing-slug
+
+Request: GET http://127.0.0.1:8000/portals/ncbi-achromobacter-mucicolens/retrieve-data
+Headers: Headers({'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '191664c9-cb00-4e07-9c13-6029e7fce47e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'})
+Response status: 200
+Time taken: 2.116692304611206 seconds
+Activity: GET http://127.0.0.1:8000/portals/ncbi-achromobacter-mucicolens/retrieve-data
+
+Request: GET http://127.0.0.1:8000/raws
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '2395a7d2-4697-43a7-ab52-4c69a7c07c37', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157'})
+Response status: 307
+Time taken: 0.0005211830139160156 seconds
+Activity: GET http://127.0.0.1:8000/raws
+
+Request: GET http://127.0.0.1:8000/raws/
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '2395a7d2-4697-43a7-ab52-4c69a7c07c37', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157', 'referer': 'http://127.0.0.1:8000/raws', 'host': '127.0.0.1:8000'})
+Response status: 200
+Time taken: 0.08312010765075684 seconds
+Activity: GET http://127.0.0.1:8000/raws/
+
+Request: POST http://127.0.0.1:8000/raws/ncbi-achromobacter-mucicolens/store
+Headers: Headers({'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '23dca190-0a44-4f7f-9f99-0febc88f4e2f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'})
+Response status: 404
+Time taken: 0.0009865760803222656 seconds
+Activity: POST http://127.0.0.1:8000/raws/ncbi-achromobacter-mucicolens/store
+
+Request: POST http://127.0.0.1:8000/raws/store/
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': 'ca8d1cb9-c493-40fe-8218-f82faeb49235', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '194'})
+Response status: 200
+Time taken: 53.285648345947266 seconds
+Activity: POST http://127.0.0.1:8000/raws/store/
+
+Request: DELETE http://127.0.0.1:8000/raws/delete
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '146aeb3a-487a-414f-9091-3edcdd02af05', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '140'})
+Response status: 200
+Time taken: 0.106201171875 seconds
+Activity: DELETE http://127.0.0.1:8000/raws/delete
+
+Request: POST http://127.0.0.1:8000/raws/store/raw-data-to-terms
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': 'e668132d-fb62-47c0-8acc-2f51c1e88bbe', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '136'})
+Response status: 200
+Time taken: 0.4616975784301758 seconds
+Activity: POST http://127.0.0.1:8000/raws/store/raw-data-to-terms
+
+Request: GET http://127.0.0.1:8000/terms
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '73b723ed-3a70-4587-b36d-2b02825a52ca', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '98'})
+Response status: 307
+Time taken: 0.0005326271057128906 seconds
+Activity: GET http://127.0.0.1:8000/terms
+
+Request: GET http://127.0.0.1:8000/terms/
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '73b723ed-3a70-4587-b36d-2b02825a52ca', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '98', 'referer': 'http://127.0.0.1:8000/terms', 'host': '127.0.0.1:8000'})
+Response status: 200
+Time taken: 2.5547826290130615 seconds
+Activity: GET http://127.0.0.1:8000/terms/
+
