@@ -1,6 +1,6 @@
 from config import BACDIVE_EMAIL, BACDIVE_PASSWORD
 import bacdive
-from utils.func_helper import convert_to_string
+from utils.helper.func_helper import convert_to_string
 
 # index_object = {
 #     "data.species": 1, 

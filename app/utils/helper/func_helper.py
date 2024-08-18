@@ -40,7 +40,7 @@ async def addQueryToURL(portal: dict) -> str:
     
 # Check if portal exists
 async def portal_exists(slug: str) -> bool:
-    portal = await portal_collection.find_one({"slug": slug})
+    portal = await portal_collection.find_one({"slug": slug}, {"_id": 0})
     return portal
 
 async def check_params(params: list) -> list:

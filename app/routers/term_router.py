@@ -1,7 +1,7 @@
 from fastapi import APIRouter, status
 from crud.term_crud import get_terms, search_terms
-from utils.response_helper import success_response, error_response
-from common.message.message_enum import ResponseMessage
+from utils.helper.response_helper import success_response, error_response
+from utils.message.message_enum import ResponseMessage
 from models.term_model import TermModel, ListOfParams, searchParams
 router = APIRouter()
 

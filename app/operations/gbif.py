@@ -1,5 +1,5 @@
 import httpx
-from utils.func_helper import convert_to_string, addQueryToURL
+from utils.helper.func_helper import convert_to_string, addQueryToURL
 
 index_object = {"data.species": 1, "data.genus": 1, "data.family": 1, "data.order": 1, "data.class": 1, "data.phylum": 1}
 

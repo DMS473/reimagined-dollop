@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from utils.middleware.request_log_middleware import RequestLoggingMiddleware
 from routers import portal_router, raw_data_router, term_router
 import uvicorn
 from config import HOST, PORT
@@ -13,6 +14,8 @@ app.add_middleware(
     allow_methods=["*"],  # Allow all methods (GET, POST, etc.)
     allow_headers=["*"],  # Allow all headers
 )
+
+app.add_middleware(RequestLoggingMiddleware)
 
 app.include_router(portal_router.router, prefix="/portals", tags=["portals"])
 app.include_router(raw_data_router.router, prefix="/raws", tags=["raws"])
