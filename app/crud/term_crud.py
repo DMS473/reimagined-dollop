@@ -59,27 +59,27 @@ async def search_terms(params: list) -> list:
                 def flatten_nested_objects(data):
                     def flatten(d):
                         if isinstance(d, dict):
-                            # Check if there's only one key and its value is another dictionary
+                            # If the dictionary has only one key and its value is another dictionary
                             if len(d) == 1:
                                 key = list(d.keys())[0]
                                 value = d[key]
                                 if isinstance(value, dict):
                                     # Flatten the nested dictionary
                                     flattened_value = flatten(value)
-                                    # Remove the nested dictionary and merge its contents
-                                    d.pop(key)
-                                    d.update(flattened_value)
+                                    # Replace the current dictionary with the flattened value
+                                    return flattened_value
                             # Apply flattening recursively to all dictionary values
-                            for k, v in list(d.items()):
-                                if isinstance(v, dict):
-                                    d[k] = flatten(v)
-                        return d
+                            return {k: flatten(v) for k, v in d.items()}
+                        elif isinstance(d, list):
+                            # Apply the flattening function to each item in the list
+                            return [flatten(item) for item in d]
+                        else:
+                            return d
 
                     # Apply the flattening function to each item in the list
                     return [flatten(item) for item in data]
-                
+            
                 return flatten_nested_objects(result)
-
                 
             except Exception as e:
                 raise Exception(f"An error occurred while retrieving terms data: {str(e)}")

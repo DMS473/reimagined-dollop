@@ -1452,3 +1452,999 @@ Response status: 200
 Time taken: 0.4578995704650879 seconds
 Activity: GET http://127.0.0.1:8000/terms/search
 
+Request: GET http://127.0.0.1:8000/livereload/19016555/19018019
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/E/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8', 'cookie': '_xsrf=2|1be3bdbe|ee3b86bb74da0636f4105a4270a9b10f|1723387546; username-127-0-0-1-8889="2|1:0|10:1723387550|23:username-127-0-0-1-8889|200:eyJ1c2VybmFtZSI6ICI1M2VhNGZkOTI0ZDk0MDc2YjhiMGYyNmU2OWRmNjNkMiIsICJuYW1lIjogIkFub255bW91cyBMeXNpdGhlYSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEx5c2l0aGVhIiwgImluaXRpYWxzIjogIkFMIiwgImNvbG9yIjogbnVsbH0=|f478c148f4ae246018e3606371f8eb1835c5304e53068b31cd2b946ca0b303f5"'})
+Response status: 404
+Time taken: 0.0018572807312011719 seconds
+Activity: GET http://127.0.0.1:8000/livereload/19016555/19018019
+
+Request: GET http://127.0.0.1:8000/livereload/19016555/19018019
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/E/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8', 'cookie': '_xsrf=2|1be3bdbe|ee3b86bb74da0636f4105a4270a9b10f|1723387546; username-127-0-0-1-8889="2|1:0|10:1723387550|23:username-127-0-0-1-8889|200:eyJ1c2VybmFtZSI6ICI1M2VhNGZkOTI0ZDk0MDc2YjhiMGYyNmU2OWRmNjNkMiIsICJuYW1lIjogIkFub255bW91cyBMeXNpdGhlYSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEx5c2l0aGVhIiwgImluaXRpYWxzIjogIkFMIiwgImNvbG9yIjogbnVsbH0=|f478c148f4ae246018e3606371f8eb1835c5304e53068b31cd2b946ca0b303f5"'})
+Response status: 404
+Time taken: 0.0011131763458251953 seconds
+Activity: GET http://127.0.0.1:8000/livereload/19016555/19018019
+
+Request: GET http://127.0.0.1:8000/livereload/19016555/19018019
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/E/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8', 'cookie': '_xsrf=2|1be3bdbe|ee3b86bb74da0636f4105a4270a9b10f|1723387546; username-127-0-0-1-8889="2|1:0|10:1723387550|23:username-127-0-0-1-8889|200:eyJ1c2VybmFtZSI6ICI1M2VhNGZkOTI0ZDk0MDc2YjhiMGYyNmU2OWRmNjNkMiIsICJuYW1lIjogIkFub255bW91cyBMeXNpdGhlYSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEx5c2l0aGVhIiwgImluaXRpYWxzIjogIkFMIiwgImNvbG9yIjogbnVsbH0=|f478c148f4ae246018e3606371f8eb1835c5304e53068b31cd2b946ca0b303f5"'})
+Response status: 404
+Time taken: 0.0007839202880859375 seconds
+Activity: GET http://127.0.0.1:8000/livereload/19016555/19018019
+
+Request: GET http://127.0.0.1:8000/livereload/19016555/19018019
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/E/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8', 'cookie': '_xsrf=2|1be3bdbe|ee3b86bb74da0636f4105a4270a9b10f|1723387546; username-127-0-0-1-8889="2|1:0|10:1723387550|23:username-127-0-0-1-8889|200:eyJ1c2VybmFtZSI6ICI1M2VhNGZkOTI0ZDk0MDc2YjhiMGYyNmU2OWRmNjNkMiIsICJuYW1lIjogIkFub255bW91cyBMeXNpdGhlYSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEx5c2l0aGVhIiwgImluaXRpYWxzIjogIkFMIiwgImNvbG9yIjogbnVsbH0=|f478c148f4ae246018e3606371f8eb1835c5304e53068b31cd2b946ca0b303f5"'})
+Response status: 404
+Time taken: 0.0010962486267089844 seconds
+Activity: GET http://127.0.0.1:8000/livereload/19016555/19018019
+
+Request: GET http://127.0.0.1:8000/livereload/19016555/19018019
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/E/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8', 'cookie': '_xsrf=2|1be3bdbe|ee3b86bb74da0636f4105a4270a9b10f|1723387546; username-127-0-0-1-8889="2|1:0|10:1723387550|23:username-127-0-0-1-8889|200:eyJ1c2VybmFtZSI6ICI1M2VhNGZkOTI0ZDk0MDc2YjhiMGYyNmU2OWRmNjNkMiIsICJuYW1lIjogIkFub255bW91cyBMeXNpdGhlYSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEx5c2l0aGVhIiwgImluaXRpYWxzIjogIkFMIiwgImNvbG9yIjogbnVsbH0=|f478c148f4ae246018e3606371f8eb1835c5304e53068b31cd2b946ca0b303f5"'})
+Response status: 404
+Time taken: 0.0010004043579101562 seconds
+Activity: GET http://127.0.0.1:8000/livereload/19016555/19018019
+
+Request: GET http://127.0.0.1:8000/livereload/19016555/19018019
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/E/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8', 'cookie': '_xsrf=2|1be3bdbe|ee3b86bb74da0636f4105a4270a9b10f|1723387546; username-127-0-0-1-8889="2|1:0|10:1723387550|23:username-127-0-0-1-8889|200:eyJ1c2VybmFtZSI6ICI1M2VhNGZkOTI0ZDk0MDc2YjhiMGYyNmU2OWRmNjNkMiIsICJuYW1lIjogIkFub255bW91cyBMeXNpdGhlYSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEx5c2l0aGVhIiwgImluaXRpYWxzIjogIkFMIiwgImNvbG9yIjogbnVsbH0=|f478c148f4ae246018e3606371f8eb1835c5304e53068b31cd2b946ca0b303f5"'})
+Response status: 404
+Time taken: 0.001094818115234375 seconds
+Activity: GET http://127.0.0.1:8000/livereload/19016555/19018019
+
+Request: GET http://127.0.0.1:8000/livereload/19016555/19018019
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/E/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8', 'cookie': '_xsrf=2|1be3bdbe|ee3b86bb74da0636f4105a4270a9b10f|1723387546; username-127-0-0-1-8889="2|1:0|10:1723387550|23:username-127-0-0-1-8889|200:eyJ1c2VybmFtZSI6ICI1M2VhNGZkOTI0ZDk0MDc2YjhiMGYyNmU2OWRmNjNkMiIsICJuYW1lIjogIkFub255bW91cyBMeXNpdGhlYSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEx5c2l0aGVhIiwgImluaXRpYWxzIjogIkFMIiwgImNvbG9yIjogbnVsbH0=|f478c148f4ae246018e3606371f8eb1835c5304e53068b31cd2b946ca0b303f5"'})
+Response status: 404
+Time taken: 0.0008144378662109375 seconds
+Activity: GET http://127.0.0.1:8000/livereload/19016555/19018019
+
+Request: GET http://127.0.0.1:8000/livereload/19016555/19018019
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/E/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8', 'cookie': '_xsrf=2|1be3bdbe|ee3b86bb74da0636f4105a4270a9b10f|1723387546; username-127-0-0-1-8889="2|1:0|10:1723387550|23:username-127-0-0-1-8889|200:eyJ1c2VybmFtZSI6ICI1M2VhNGZkOTI0ZDk0MDc2YjhiMGYyNmU2OWRmNjNkMiIsICJuYW1lIjogIkFub255bW91cyBMeXNpdGhlYSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEx5c2l0aGVhIiwgImluaXRpYWxzIjogIkFMIiwgImNvbG9yIjogbnVsbH0=|f478c148f4ae246018e3606371f8eb1835c5304e53068b31cd2b946ca0b303f5"'})
+Response status: 404
+Time taken: 0.01080942153930664 seconds
+Activity: GET http://127.0.0.1:8000/livereload/19016555/19018019
+
+Request: GET http://127.0.0.1:8000/portals
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'accept-language': '*', 'sec-fetch-mode': 'cors', 'user-agent': 'node', 'accept-encoding': 'gzip, deflate'})
+Response status: 307
+Time taken: 0.004076242446899414 seconds
+Activity: GET http://127.0.0.1:8000/portals
+
+Request: GET http://127.0.0.1:8000/portals/
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'accept-language': '*', 'sec-fetch-mode': 'cors', 'user-agent': 'node', 'accept-encoding': 'gzip, deflate'})
+Response status: 200
+Time taken: 0.5928521156311035 seconds
+Activity: GET http://127.0.0.1:8000/portals/
+
+Request: GET http://127.0.0.1:8000/portals
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'accept-language': '*', 'sec-fetch-mode': 'cors', 'user-agent': 'node', 'accept-encoding': 'gzip, deflate'})
+Response status: 307
+Time taken: 0.0010349750518798828 seconds
+Activity: GET http://127.0.0.1:8000/portals
+
+Request: GET http://127.0.0.1:8000/portals/
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'accept-language': '*', 'sec-fetch-mode': 'cors', 'user-agent': 'node', 'accept-encoding': 'gzip, deflate'})
+Response status: 200
+Time taken: 0.09246635437011719 seconds
+Activity: GET http://127.0.0.1:8000/portals/
+
+Request: GET http://127.0.0.1:8000/portals
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'accept-language': '*', 'sec-fetch-mode': 'cors', 'user-agent': 'node', 'accept-encoding': 'gzip, deflate'})
+Response status: 307
+Time taken: 0.0008733272552490234 seconds
+Activity: GET http://127.0.0.1:8000/portals
+
+Request: GET http://127.0.0.1:8000/portals/
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'accept-language': '*', 'sec-fetch-mode': 'cors', 'user-agent': 'node', 'accept-encoding': 'gzip, deflate'})
+Response status: 200
+Time taken: 0.08573675155639648 seconds
+Activity: GET http://127.0.0.1:8000/portals/
+
+Request: GET http://127.0.0.1:8000/portals
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'accept-language': '*', 'sec-fetch-mode': 'cors', 'user-agent': 'node', 'accept-encoding': 'gzip, deflate'})
+Response status: 307
+Time taken: 0.0005943775177001953 seconds
+Activity: GET http://127.0.0.1:8000/portals
+
+Request: GET http://127.0.0.1:8000/portals/
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'accept-language': '*', 'sec-fetch-mode': 'cors', 'user-agent': 'node', 'accept-encoding': 'gzip, deflate'})
+Response status: 200
+Time taken: 0.08440661430358887 seconds
+Activity: GET http://127.0.0.1:8000/portals/
+
+Request: OPTIONS http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'POST', 'access-control-request-headers': 'content-type', 'origin': 'http://localhost:3000', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0038437843322753906 seconds
+Activity: OPTIONS http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 405
+Time taken: 0.0012226104736328125 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 422
+Time taken: 0.003892183303833008 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '14', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.3666806221008301 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '22', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.06624293327331543 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '22', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0589909553527832 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '22', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.05486440658569336 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '22', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.05863666534423828 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '22', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.057398080825805664 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '22', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.06609201431274414 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '22', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.05723094940185547 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '22', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0578157901763916 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 422
+Time taken: 0.000985860824584961 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '18', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0552823543548584 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '18', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.05493450164794922 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '18', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.05697441101074219 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '18', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.05654597282409668 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '18', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.055222272872924805 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '18', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.05437421798706055 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '18', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0698397159576416 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '18', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.05711245536804199 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0672607421875 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08580446243286133 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '18', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.05650186538696289 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.06606435775756836 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08097028732299805 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08025097846984863 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07752847671508789 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08528828620910645 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08276033401489258 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08784723281860352 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07866072654724121 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08104395866394043 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08230352401733398 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0799715518951416 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0807349681854248 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07991147041320801 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07894539833068848 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08072614669799805 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0833742618560791 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07989907264709473 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08851933479309082 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0851449966430664 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08063554763793945 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08325028419494629 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 422
+Time taken: 0.001087188720703125 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 422
+Time taken: 0.0009212493896484375 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 422
+Time taken: 0.0008592605590820312 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 422
+Time taken: 0.0012912750244140625 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08798074722290039 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: GET http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '44884f8d-5246-414e-b423-dfdde2ce464e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '22'})
+Response status: 405
+Time taken: 0.0005004405975341797 seconds
+Activity: GET http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '1405f176-3274-4c1c-802a-796e60267ead', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '22'})
+Response status: 422
+Time taken: 0.00093841552734375 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.45342421531677246 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 422
+Time taken: 0.0009429454803466797 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 422
+Time taken: 0.0008759498596191406 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': 'f96a7bb1-bf07-4aa7-9d12-09414a115863', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '22'})
+Response status: 422
+Time taken: 0.0008642673492431641 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '9d4dea5b-2f60-4367-89b0-a14e9ae41c6a', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '22'})
+Response status: 422
+Time taken: 0.0016980171203613281 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '65edbb98-5c1c-411c-9213-693eddcfbcc1', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '22'})
+Response status: 422
+Time taken: 0.001184701919555664 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: GET http://127.0.0.1:8000/terms
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '477e9c1e-9fd4-4454-9208-492f73fe51af', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '98'})
+Response status: 307
+Time taken: 0.0011360645294189453 seconds
+Activity: GET http://127.0.0.1:8000/terms
+
+Request: GET http://127.0.0.1:8000/terms/
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '477e9c1e-9fd4-4454-9208-492f73fe51af', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '98', 'referer': 'http://127.0.0.1:8000/terms', 'host': '127.0.0.1:8000'})
+Response status: 200
+Time taken: 0.5357470512390137 seconds
+Activity: GET http://127.0.0.1:8000/terms/
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '25b235b2-7869-44bb-922c-35b0ab770d86', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '22'})
+Response status: 422
+Time taken: 0.001112222671508789 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '3bd5a920-e924-495f-ad37-3b85a132769e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '22'})
+Response status: 422
+Time taken: 0.0015256404876708984 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: OPTIONS http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'POST', 'access-control-request-headers': 'content-type', 'origin': 'http://localhost:3000', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0009810924530029297 seconds
+Activity: OPTIONS http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 405
+Time taken: 0.0005068778991699219 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 422
+Time taken: 0.0015916824340820312 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.44036102294921875 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 422
+Time taken: 0.001275777816772461 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '20', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07988476753234863 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '20', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07121729850769043 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07796692848205566 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08001184463500977 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.09004902839660645 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 422
+Time taken: 0.0012202262878417969 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 422
+Time taken: 0.0012409687042236328 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '13', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 422
+Time taken: 0.0010454654693603516 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: GET http://127.0.0.1:8000/portals
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'accept-language': '*', 'sec-fetch-mode': 'cors', 'user-agent': 'node', 'accept-encoding': 'gzip, deflate'})
+Response status: 307
+Time taken: 0.0005505084991455078 seconds
+Activity: GET http://127.0.0.1:8000/portals
+
+Request: GET http://127.0.0.1:8000/portals/
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'accept-language': '*', 'sec-fetch-mode': 'cors', 'user-agent': 'node', 'accept-encoding': 'gzip, deflate'})
+Response status: 200
+Time taken: 0.07971549034118652 seconds
+Activity: GET http://127.0.0.1:8000/portals/
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '20', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07979011535644531 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08532238006591797 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07993316650390625 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08234977722167969 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08558893203735352 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.09498763084411621 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: OPTIONS http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'POST', 'access-control-request-headers': 'content-type', 'origin': 'http://localhost:3000', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.00038242340087890625 seconds
+Activity: OPTIONS http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08161258697509766 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07719731330871582 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08507251739501953 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08286452293395996 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08116555213928223 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.09143733978271484 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0814511775970459 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08095622062683105 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08199667930603027 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0843963623046875 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08033132553100586 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08180546760559082 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08119034767150879 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08037185668945312 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '19', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08127355575561523 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08075261116027832 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': 'ef0daee9-71de-44d2-98ea-af8fb5ea326d', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '35'})
+Response status: 200
+Time taken: 0.08003973960876465 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0827934741973877 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08201122283935547 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0796055793762207 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08229780197143555 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08192610740661621 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08037376403808594 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08202147483825684 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07800483703613281 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08167195320129395 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08256292343139648 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08062577247619629 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08231091499328613 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08252096176147461 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08236479759216309 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07796287536621094 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08094453811645508 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08010077476501465 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: OPTIONS http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'POST', 'access-control-request-headers': 'content-type', 'origin': 'http://localhost:3000', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0005464553833007812 seconds
+Activity: OPTIONS http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07961201667785645 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08133363723754883 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07692527770996094 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08012890815734863 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08030414581298828 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08177375793457031 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.09321999549865723 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.07943081855773926 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.09068107604980469 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': 'b5f68f24-2c78-4fb2-a316-b9dbe9c1772a', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '35'})
+Response status: 200
+Time taken: 0.4867527484893799 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': 'c6ed3feb-683c-4d7c-9493-d5d4e2bc33a1', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '35'})
+Response status: 200
+Time taken: 0.07796669006347656 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: OPTIONS http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'POST', 'access-control-request-headers': 'content-type', 'origin': 'http://localhost:3000', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0005815029144287109 seconds
+Activity: OPTIONS http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '30', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08426117897033691 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08152079582214355 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08695125579833984 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.09494447708129883 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: GET http://127.0.0.1:8000/livereload/19016555/19018019
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/E/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8', 'cookie': '_xsrf=2|1be3bdbe|ee3b86bb74da0636f4105a4270a9b10f|1723387546; username-127-0-0-1-8889="2|1:0|10:1723387550|23:username-127-0-0-1-8889|200:eyJ1c2VybmFtZSI6ICI1M2VhNGZkOTI0ZDk0MDc2YjhiMGYyNmU2OWRmNjNkMiIsICJuYW1lIjogIkFub255bW91cyBMeXNpdGhlYSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEx5c2l0aGVhIiwgImluaXRpYWxzIjogIkFMIiwgImNvbG9yIjogbnVsbH0=|f478c148f4ae246018e3606371f8eb1835c5304e53068b31cd2b946ca0b303f5"'})
+Response status: 404
+Time taken: 0.0009310245513916016 seconds
+Activity: GET http://127.0.0.1:8000/livereload/19016555/19018019
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '148444c5-fee6-4494-b85c-9776d4e394c5', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '35'})
+Response status: 200
+Time taken: 0.4343423843383789 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: OPTIONS http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'POST', 'access-control-request-headers': 'content-type', 'origin': 'http://localhost:3000', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0010704994201660156 seconds
+Activity: OPTIONS http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.45206236839294434 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '84faa20d-017f-4650-9910-0f395033dd1f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '35'})
+Response status: 200
+Time taken: 0.4309680461883545 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '033e191f-9c6f-4e32-8137-4f05563db8ea', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '35'})
+Response status: 200
+Time taken: 0.5041258335113525 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '85d64f65-f85f-44b4-962f-a7e4d8244e4e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '35'})
+Response status: 200
+Time taken: 0.4360966682434082 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': 'ff49b815-5501-4fc7-b718-581e10a7b651', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '35'})
+Response status: 200
+Time taken: 0.4429168701171875 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': 'bfd4917f-337c-477b-8d8f-907ec2341697', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '35'})
+Response status: 200
+Time taken: 0.4437990188598633 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': 'bc8a0aac-f64a-421c-856c-e02b6a740c76', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '35'})
+Response status: 200
+Time taken: 0.4476475715637207 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '4d7ce25c-84f9-4eb5-914e-b3330790840e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '35'})
+Response status: 200
+Time taken: 0.4509007930755615 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: OPTIONS http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'accept': '*/*', 'access-control-request-method': 'POST', 'access-control-request-headers': 'content-type', 'origin': 'http://localhost:3000', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'cross-site', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.0005285739898681641 seconds
+Activity: OPTIONS http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.08450031280517578 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.41.1', 'accept': '*/*', 'postman-token': '87f04b6d-6813-461d-ad8b-445ade3bb08d', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '35'})
+Response status: 200
+Time taken: 0.4265155792236328 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
+Request: POST http://127.0.0.1:8000/terms/search
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '26', 'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,id;q=0.8'})
+Response status: 200
+Time taken: 0.09939002990722656 seconds
+Activity: POST http://127.0.0.1:8000/terms/search
+
