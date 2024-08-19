@@ -2,7 +2,13 @@ import httpx
 import xmltodict
 from utils.helper.func_helper import convert_to_string, addQueryToURL
 
-# index_object = {"species": 1, "genus": 1, "family": 1, "order": 1, "class": 1, "phylum": 1}
+index_loc = "data"
+index_items = [
+    "ScientificName",
+    "Rank",
+    "Division",
+]
+index_object = {f"{index_loc}.{item}": 1 for item in index_items}
 
 async def retrieve(portal: dict) -> dict:
     try:
@@ -32,6 +38,8 @@ async def retrieve(portal: dict) -> dict:
             response.raise_for_status()
             # Parse the XML response into a dictionary
             data = xmltodict.parse(response.text)
+
+        data = data['TaxaSet']['Taxon']
 
         # Return the parsed data
         return data

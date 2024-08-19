@@ -1,7 +1,17 @@
 import httpx
 from utils.helper.func_helper import convert_to_string, addQueryToURL
 
-index_object = {"data.species": 1, "data.genus": 1, "data.family": 1, "data.order": 1, "data.class": 1, "data.phylum": 1}
+index_loc = "data"
+index_items = [
+    "scientificname", 
+    "rank", 
+    "division", 
+    "class", 
+    "order", 
+    "family", 
+    "genus"
+]
+index_object = {f"{index_loc}.{item}": 1 for item in index_items}
 
 async def retrieve(portal: dict) -> dict:
   try:

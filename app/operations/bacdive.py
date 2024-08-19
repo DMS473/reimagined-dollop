@@ -2,14 +2,18 @@ from config import BACDIVE_EMAIL, BACDIVE_PASSWORD
 import bacdive
 from utils.helper.func_helper import convert_to_string
 
-# index_object = {
-#     "data.species": 1, 
-#     "data.genus": 1, 
-#     "data.family": 1, 
-#     "data.order": 1, 
-#     "data.class": 1, 
-#     "data.phylum": 1
-# }
+index_loc = "data.0"
+index_items = [
+    "General.description", 
+    "Name and taxonomic classification.LPSN.domain",
+    "Name and taxonomic classification.LPSN.phylum",
+    "Name and taxonomic classification.LPSN.class",
+    "Name and taxonomic classification.LPSN.order",
+    "Name and taxonomic classification.LPSN.family",
+    "Name and taxonomic classification.LPSN.genus",
+    "Name and taxonomic classification.LPSN.species",
+]
+index_object = {f"{index_loc}.{item}": 1 for item in index_items}
 
 # Get bacdive data
 def retrieve(portal: dict) -> dict:
