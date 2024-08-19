@@ -13,7 +13,7 @@ async def get_term_route_func(params: ListOfParams):
     except Exception as e:
         return error_response(message=str(e), status_code=400)
     
-@router.get('/search', status_code=status.HTTP_200_OK)
+@router.post('/search', status_code=status.HTTP_200_OK)
 async def search_term_route_func(params: searchParams):
     try:
         data = await search_terms(params)
