@@ -20,85 +20,66 @@ async def get_terms(params: list) -> list:
             except Exception as e:
                 raise Exception(f"An error occurred while retrieving terms data: {str(e)}")
 
-# Retrieve terms data from database
-@log_function("Retrieve terms data")
+# Search terms data from database
+@log_function("Search terms data")
 async def search_terms(params: list) -> list:
     async with await client.start_session() as session:
         async with session.start_transaction():
             try:
 
-                # await terms_collection.update_many(
-                #     { "language": "zh" },
-                #     { "$unset": { "language": "" } }
-                # )
-
-                # indexes = await terms_collection.index_information()
+                # indexes = await raw_collection.index_information()
                 # print(indexes)
-
-                # await terms_collection.create_index(
-                #     { "$**": "text" },
-                #     language_override='none',
-                #     default_language='en',
-                # )
-
-                # await terms_collection.create_index(
-                #     {   "data.gbif.usageKey": "text" ,
-                #         "data.gbif.scientificName": "text",
-                #         "data.gbif.canonicalName": "text",
-                #         "data.gbif.rank": "text",
-                #         "data.gbif.status": "text",
-                #         "data.gbif.confidence": "text",
-                #         "data.gbif.matchType": "text",
-                #         "data.gbif.kingdom": "text",
-                #         "data.gbif.phylum": "text",
-                #         "data.gbif.order": "text",
-                #         "data.gbif.family": "text",
-                #         "data.gbif.genus": "text",
-                #         "data.gbif.species": "text",
-                #         "data.gbif.kingdomKey": "text",
-                #         "data.gbif.phylumKey": "text",
-                #         "data.gbif.classKey": "text",
-                #         "data.gbif.orderKey": "text",
-                #         "data.gbif.familyKey": "text",
-                #         "data.gbif.genusKey": "text",
-                #         "data.gbif.speciesKey": "text",
-                #         "data.gbif.synonym": "text",
-                #         "data.gbif.class": "text"
-                #     },
-                #     name= 'testing',
-                #     language_override='none',
-                #     default_language='en',
-                # )
-
-                
-                
-                # await terms_collection.drop_index('data.gbif.usageKey_text_data.gbif_text')
-
-                # search = params.search
 
                 # await raw_collection.create_index(
                 #     { "$**": "text" },
+                #     name='search_index',
+                #     weights={
+                #         "web": 10,
+                #         "species": 10,
+                #         "slug": 8,
+                #         "data": 7
+                #     },
                 #     language_override='none',
                 #     default_language='en',
                 # )
 
                 projection = {
                     '_id': 0,
+                    'web': 1,
+                    'species': 1,
                     **combined_index_object  # Unpacking combined_index_object into the projection
                 }
 
-                print(projection)
-
                 result = await raw_collection.find(
                     { '$text': { '$search': params.search }},
-                    projection
+                    projection,
+                    session=session
                 ).to_list(1000)
 
-                # result = await terms_collection.find({
-                #     '$text': { '$search': params.search }
-                # }, {'_id': 0}).to_list(length=1000)
+                def flatten_nested_objects(data):
+                    def flatten(d):
+                        if isinstance(d, dict):
+                            # Check if there's only one key and its value is another dictionary
+                            if len(d) == 1:
+                                key = list(d.keys())[0]
+                                value = d[key]
+                                if isinstance(value, dict):
+                                    # Flatten the nested dictionary
+                                    flattened_value = flatten(value)
+                                    # Remove the nested dictionary and merge its contents
+                                    d.pop(key)
+                                    d.update(flattened_value)
+                            # Apply flattening recursively to all dictionary values
+                            for k, v in list(d.items()):
+                                if isinstance(v, dict):
+                                    d[k] = flatten(v)
+                        return d
 
-                return result
+                    # Apply the flattening function to each item in the list
+                    return [flatten(item) for item in data]
+                
+                return flatten_nested_objects(result)
 
+                
             except Exception as e:
                 raise Exception(f"An error occurred while retrieving terms data: {str(e)}")

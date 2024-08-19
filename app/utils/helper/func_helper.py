@@ -114,3 +114,12 @@ combined_index_object = {}
 
 for index_object in index_objects:
     combined_index_object.update(index_object)
+
+def get_var_from_module(module_name: str, var_name: str) -> any:
+    # Dynamically import the module
+    spec = importlib.util.spec_from_file_location(module_name, OPERATIONS_FOLDERS + '/' + module_name + ".py")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    
+    # Get the variable from the module
+    return getattr(module, var_name)

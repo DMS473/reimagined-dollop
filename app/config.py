@@ -31,3 +31,7 @@ if not PORT:
 OPERATIONS_FOLDERS = os.getenv("OPERATIONS_FOLDERS")
 if not OPERATIONS_FOLDERS:
     raise ValueError("OPERATIONS_FOLDERS must be defined.")
+
+DEBUG = os.getenv("DEBUG")
+if not DEBUG:
+    raise ValueError("DEBUG must be defined.")
